@@ -6,8 +6,5 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Controller {
-    @RequestMapping("/api/downtime")
-    public int calcDownTime(@RequestParam double percentage){
-        
-    }
+    
 }
